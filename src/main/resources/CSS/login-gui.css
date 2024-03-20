@@ -1,0 +1,7 @@
+.text-field {
+    -fx-background-color: tranparent; /* set the background color to transparent */
+    -fx-border-width: 0 0 3 0; /* set the border width to only have a bottom border */
+    -fx-border-color: WHITE; /* set the border color */
+    -fx-prompt-text-fill: WHITE; /* set the prompt text color */
+    -fx-text-inner-color: WHITE; /* set the text color to white */
+}

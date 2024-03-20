@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" stylesheets="@../../../CSS/appStyleSheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject_oop_2023.controller.UserGUIController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../BackgroundFX.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="800.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" width="1280.0" />
+      <ImageView fitHeight="160.0" fitWidth="454.0" layoutX="400.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Logo/LogoStore.png" />
+         </image>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </ImageView>
+      <GridPane alignment="CENTER" prefHeight="800.0" prefWidth="1280.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="632.1340942382812" minWidth="10.0" prefWidth="441.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="895.9301147460938" minWidth="10.0" prefWidth="839.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="167.38967895507812" minHeight="10.0" prefHeight="165.568603515625" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="259.13409423828125" minHeight="0.0" prefHeight="50.431396484375" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="611.5" minHeight="10.0" prefHeight="583.5915374755859" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #62736E;" GridPane.rowIndex="2">
+               <children>
+                  <Pane prefHeight="156.0" prefWidth="384.0">
+                     <children>
+                        <Button fx:id="returnDashboard" layoutX="87.0" layoutY="19.0" mnemonicParsing="false" onAction="#onReturnDashboard" prefHeight="50.0" prefWidth="280.0" text="Return Dashboard" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font></Button>
+                     </children></Pane>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="129.0" fitWidth="206.0" onMouseClicked="#onProfile" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../ButtonIcon/profile.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets bottom="-35.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label text="Profile" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#onCurrentBorrow" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../ButtonIcon/current.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets bottom="-30.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label text="Current Borrow" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" onMouseClicked="#onHistory" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../ButtonIcon/history.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets bottom="-30.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label text="Renting History" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="88.0" fitWidth="124.0" onMouseClicked="#onExit" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../ButtonIcon/exit.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets bottom="-15.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label text="Exit" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold Italic" size="30.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="-12.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fitHeight="81.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../ButtonIcon/search.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-30.0" right="-15.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                  </ImageView>
+                  <TextField fx:id="searchbar" prefHeight="38.0" prefWidth="450.0" promptText="Search by name" style="-fx-border-color: WHITE;" stylesheets="@../../../CSS/login-gui.css">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect></TextField>
+               </children>
+            </HBox>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="25.0" layoutY="55.0" textFill="#62736e">
+                     <font>
+                        <Font name="Arial Bold Italic" size="30.0" />
+                     </font>
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect></Label>
+               </children>
+            </Pane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <TableView fx:id="historyTV" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="hisId" prefWidth="75.0" text="ID" />
+                      <TableColumn fx:id="hisTitle" prefWidth="256.0" text="Title" />
+                        <TableColumn fx:id="hisUsername" prefWidth="86.50531005859375" text="Rent by" />
+                        <TableColumn fx:id="hisLoanType" prefWidth="113.49468994140625" text="LoanType" />
+                        <TableColumn fx:id="hisFee" prefWidth="75.5093994140625" text="Fee" />
+                        <TableColumn fx:id="hisStatus" prefWidth="80.9906005859375" text="Status" />
+                        <TableColumn fx:id="hisTime" prefWidth="152.989990234375" text="Time" />
+                    </columns>
+                  </TableView>
+                  <TableView fx:id="currentBorrowTV" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="idRentingColumn" prefWidth="75.0" text="ID" />
+                      <TableColumn fx:id="titleRentingColumn" prefWidth="301.0" text="Title" />
+                        <TableColumn fx:id="typeRentingColumn" minWidth="0.0" prefWidth="115.0" text="Type" />
+                        <TableColumn fx:id="loanTypeRentingColumn" prefWidth="139.0" text="LoanType" />
+                        <TableColumn fx:id="genreRentingColumn" prefWidth="116.0" text="Genre" />
+                        <TableColumn fx:id="feeRentingColumn" prefWidth="93.0" text="Fee" />
+                    </columns>
+                  </TableView>
+                  <TableView fx:id="tableView" prefHeight="584.0" prefWidth="619.0">
+                    <columns>
+                      <TableColumn fx:id="idColumn" minWidth="20.0" prefWidth="91.0" text="ID" />
+                      <TableColumn fx:id="titleColumn" prefWidth="214.0" text="Title" />
+                        <TableColumn fx:id="rentalTypeColumn" prefWidth="111.0" text="Type" />
+                        <TableColumn fx:id="loanTypeColumn" prefWidth="117.0" text="Loan Type" />
+                        <TableColumn fx:id="copiesColumn" prefWidth="87.0" text="Copies" />
+                        <TableColumn fx:id="feeColumn" prefWidth="121.0" text="Fee" />
+                        <TableColumn fx:id="genreColumn" prefWidth="97.0" text="Genre" />
+                    </columns>
+                  </TableView>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="rentButton" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#getItemTV" prefHeight="50.0" prefWidth="150.0" text="Rent" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="returnButton" mnemonicParsing="false" onAction="#onReturnButton" prefHeight="50.0" prefWidth="150.0" text="Return">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </StackPane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

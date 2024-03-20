@@ -1,0 +1,116 @@
+/* Style for Button */
+.button {
+    -fx-background-color: rgba(83, 83, 83, 0.3);
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-background-radius: 50px; /* set the border radius */
+    -fx-border-radius: 50px; /* set the border radius */
+    -fx-padding: 10px 20px; /* set the padding */
+
+}
+#addItemButton{
+    -fx-background-color: linear-gradient(#d4c4a5, #a39c88); /* use a linear gradient for the background with vintage colors */
+    -fx-border-color: transparent; /* set a darker border color */
+    -fx-background-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-border-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-text-fill: #3a3426; /* set the text color to a darker shade */
+    -fx-font-weight: bold; /* make the text bold */
+    -fx-padding: 10px 20px; /* adjust the padding as desired */
+    -fx-font-family: "Times New Roman"; /* use a vintage-style font */
+}
+#editButton{
+    -fx-background-color: linear-gradient(#d4c4a5, #a39c88); /* use a linear gradient for the background with vintage colors */
+    -fx-border-color: transparent; /* set a darker border color */
+    -fx-background-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-border-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-text-fill: #3a3426; /* set the text color to a darker shade */
+    -fx-font-weight: bold; /* make the text bold */
+    -fx-padding: 10px 20px; /* adjust the padding as desired */
+    -fx-font-family: "Arial"; /* use a vintage-style font */
+}
+#rentButton{
+
+    -fx-background-color: linear-gradient(#d4c4a5, #a39c88); /* use a linear gradient for the background with vintage colors */
+    -fx-border-color: transparent; /* set a darker border color */
+    -fx-background-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-border-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-text-fill: #3a3426; /* set the text color to a darker shade */
+    -fx-font-weight: bold; /* make the text bold */
+    -fx-padding: 10px 20px; /* adjust the padding as desired */
+    -fx-font-family: "Arial"; /* use a vintage-style font */
+
+}
+#returnButton{
+    -fx-background-color: linear-gradient(#2ae5f6, #aae6f8); /* use a linear gradient for the background with vintage colors */
+    -fx-border-color: transparent; /* set a darker border color */
+    -fx-background-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-border-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-text-fill: #3a3426; /* set the text color to a darker shade */
+    -fx-font-weight: bold; /* make the text bold */
+    -fx-padding: 10px 20px; /* adjust the padding as desired */
+    -fx-font-family: "Arial"; /* use a vintage-style font */
+}
+#returnDashboard{
+    -fx-background-color: linear-gradient(#b88be1, #86abc7); /* use a linear gradient for the background with vintage colors */
+    -fx-border-color: transparent; /* set a darker border color */
+    -fx-background-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-border-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-text-fill: WHITE; /* set the text color to a darker shade */
+    -fx-padding: 10px 20px; /* adjust the padding as desired */
+}
+#rentalEdit{
+    -fx-background-color: linear-gradient(#2b88ad, #1a70af); /* use a linear gradient for the background with vintage colors */
+    -fx-border-color: transparent; /* set a darker border color */
+    -fx-background-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-border-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-text-fill: #3a3426; /* set the text color to a darker shade */
+    -fx-font-weight: bold; /* make the text bold */
+    -fx-padding: 10px 20px; /* adjust the padding as desired */
+    -fx-font-family: "Arial"; /* use a vintage-style font */
+}
+#itemEdit{
+    -fx-background-color: linear-gradient(#ea6ec9, #d88cee); /* use a linear gradient for the background with vintage colors */
+    -fx-border-color: transparent; /* set a darker border color */
+    -fx-background-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-border-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-text-fill: #3a3426; /* set the text color to a darker shade */
+    -fx-font-weight: bold; /* make the text bold */
+    -fx-padding: 10px 20px; /* adjust the padding as desired */
+    -fx-font-family: "Arial"; /* use a vintage-style font */
+}
+
+.text-field {
+    -fx-background-color: tranparent; /* set the background color to transparent */
+    -fx-border-width: 0 0 3 0; /* set the border width to only have a bottom border */
+    -fx-border-color: black; /* set the border color */
+    -fx-prompt-text-fill: black; /* set the prompt text color */
+    -fx-text-inner-color: black; /* set the text color to white */
+}
+/* Styling the combo box container */
+.combo-box {
+    -fx-background-color: WHITE;
+    -fx-padding: 8px 12px; /* Adjust the padding as per your preference */
+    -fx-font-size: 14px; /* Adjust the font size as per your preference */
+    -fx-border-radius: 20px; /* Adjust the border radius to control the roundness */
+    -fx-text-fill: #333; /* Adjust the text color as per your preference */
+    -fx-background-radius: 20px; /* Adjust the background radius to match the border radius */
+}
+
+.combo-box .list-cell {
+    -fx-padding: 8px 12px; /* Adjust the padding as per your preference */
+    -fx-font-size: 14px; /* Adjust the font size as per your preference */
+}
+.combo-box-popup {
+    -fx-background-color: transparent;
+}
+
+#usernameAccountTF{
+    -fx-background-color: linear-gradient(#ea6ec9, #d88cee); /* use a linear gradient for the background with vintage colors */
+    -fx-border-color: transparent; /* set a darker border color */
+    -fx-background-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-border-radius: 20px; /* increase the border radius for a smoother look */
+    -fx-text-fill: #3a3426; /* set the text color to a darker shade */
+    -fx-font-weight: bold; /* make the text bold */
+    -fx-padding: 10px 20px; /* adjust the padding as desired */
+    -fx-font-family: "Arial"; /* use a vintage-style font */
+}

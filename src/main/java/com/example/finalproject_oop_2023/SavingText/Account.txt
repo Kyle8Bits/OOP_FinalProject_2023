@@ -1,0 +1,10 @@
+C001,minhdinh,123456,Minh Dinh,18 Irwin Street,0421473243,VIP,20
+C002,wanghong98,987654,Hong Wang,20 Irwin Street,0424173255,Guest,1
+C003,linhtb,linhlinh,Linh Nguyen,12 Brunswick Street,0424173255,Guest,1
+C004,abookworm,booklover,Antony Zinc,114 Fraser Avenue,0424512345,Guest,1
+C005,johnthebaby,123456,John Cain,45 Sydney Road,0424325123,Guest,1
+C006,dylanc,2222222,Dylan Case,02 West Drive,0424125598,Regular,4
+C007,kyle,123,khoa,26 duong 2,0938202222,Guest,2
+C008,v,1,null,null,null,Guest,2
+C009,ma,1,null,null,null,Regular,4
+C010,p,1,null,null,null,Guest,1
